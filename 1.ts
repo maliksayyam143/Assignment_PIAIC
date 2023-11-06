@@ -1,4 +1,4 @@
 //Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 
-const variable : string = "Sami";
-console.log(variable);
+const variable1 : string = "“Hello Sayyam, would you like to learn some Python today?”";
+console.log(variable1);
