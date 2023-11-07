@@ -10,11 +10,11 @@ console.log("The sum of the first 10 natural numbers is: ".concat(sum));
 // Program written by [Sayyam Shahid]
 // Date: 2023-11-06
 // This TypeScript program calculates and prints the  table of 15.
-var number = 15;
+var Numbers = 15;
 var i = 1;
-console.log("Table of ".concat(number, ":"));
+console.log("Table of ".concat(Numbers, ":"));
 while (i <= 10) {
-    var result = number * i;
-    console.log("".concat(number, " x ").concat(i, " = ").concat(result));
+    var result = Numbers * i;
+    console.log("".concat(Numbers, " x ").concat(i, " = ").concat(result));
     i++;
 }
