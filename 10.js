@@ -1,4 +1,4 @@
-//Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+// Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
 var names = ["Ali", "Hamid", "Farhan", "sami"];
 console.log("Frineds :");
 for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
