@@ -3,7 +3,7 @@
 let GuestList: string[] = ["Zia ul Din", "Engineer Salam", "M.Jafar"];
 const guestwhocannotmakeit ="M.Jafar";
 const newGuest = "Hamid";
-// For update the the guest
+// For update :The guest which con't  make the dinner
 GuestList[GuestList.indexOf(guestwhocannotmakeit)]=newGuest;
 for (const guest of GuestList) {
     console.log(`Dear ${guest},I would like to invite you to dinner. It would be a pleasure to have you join me for a wonderful evening of food & conversation.`);
