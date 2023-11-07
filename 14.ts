@@ -11,6 +11,8 @@ for (const guest of GuestList) {
 const messages = "/n"; // this added for line break
 console.log()
 
+
+
 //• Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
 let guestlist: string[]=["Murtaza","Faheem","Adnan"];
 const unabletoattend ="Faheem";
@@ -23,6 +25,9 @@ console.log(`${unabletoattend} can't make it to the dinner.`);
 const messageS = "/n";// this added for line break
 console.log()
 
+
+
+
 // • Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 let GuestLists : string[] =["Umair","Sami","Ayesha"];
 const unabletoattenddiner = "Ayesha";
@@ -34,6 +39,8 @@ GuestLists.forEach((guest)=>{
 console.log(`Dear ${unabletoattenddiner}, You can cannot invited in this dinner. Because today dinner of only boys.`);
 const make = "/n";
 console.log();
+
+
 
 //• Print a second set of invitation messages, one for each person who is still in your list.
 let GUESTLIST: string[]=["Hamid","Ali","Farhan","Adnan"];
